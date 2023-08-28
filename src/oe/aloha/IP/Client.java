@@ -1,4 +1,4 @@
-package oe.aloha;
+package oe.aloha.IP;
 
 import java.net.Socket;
 import java.util.Scanner;
@@ -7,7 +7,7 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.net.UnknownHostException;
 
-public class IPClient {
+public class Client {
 	public static void main(String[] args) throws IOException, UnknownHostException {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Indtast et domænenavn: ");

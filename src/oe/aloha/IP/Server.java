@@ -1,4 +1,4 @@
-package oe.aloha;
+package oe.aloha.IP;
 
 import java.net.Socket;
 import java.net.SocketException;
@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.net.InetAddress;
 import java.net.ServerSocket;
 
-public class IPServer {
+public class Server {
 	public static void main(String[] args) throws IOException {
 		ServerSocket serverSocket = new ServerSocket(8080);
 		System.out.println("Server is listening on port 8080");
